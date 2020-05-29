@@ -1,0 +1,17 @@
+import time
+import sys
+print ("title")
+print(122222222222222, end="\r", flush=True)
+print("              ", end="\r", flush=True)
+sys.stdout.flush()
+time.sleep(2)
+print(2, end="\r", flush=True)
+time.sleep(2)
+print(3, end="\r", flush=True)
+print ("test2")
+time.sleep(2)
+print(4, end="\r", flush=True)
+time.sleep(2)
+print(5, end="\r", flush=True)
+time.sleep(2)
+print(6, end="\r", flush=True)
